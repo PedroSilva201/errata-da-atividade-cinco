@@ -4,6 +4,7 @@ import api from './api';
 
 function App() {
   const [botoes, setBotoes] = useState([]);
+  //const [registros, setRegistros] = useState([]);
 
   //chamado após montar o componente
   useEffect(async () => {
@@ -38,6 +39,8 @@ function App() {
       {item.number}:{item.count}
     </Button>
   ));
+
+  
 
   return (
     <Container>
